@@ -23,32 +23,11 @@ A Python Telegram bot with three intelligent messaging modes designed to be your
 - Telegram Bot Token (get from [@BotFather](https://t.me/BotFather))
 - Groq API Key (included in `.env`)
 
-### Installation
-
-1. **Clone or download this project**
-
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Configure environment:**
-   - Edit `.env` file
-   - Add your Telegram Bot Token:
-     ```
-     TELEGRAM_BOT_TOKEN=your_bot_token_here
-     ```
-   - Groq API key is already configured
-
-4. **Run the bot:**
-   ```bash
-   python buddy_bot.py
-   ```
 
 ## Usage
 
 ### Getting Started
-1. Start a chat with your bot on Telegram
+1. Start a chat with your bot on Telegram : @myfriendbuddy_bot
 2. Send `/start` to see the welcome message
 3. Choose a mode with `/single`, `/parallel`, or `/stitch`
 4. Start chatting!
