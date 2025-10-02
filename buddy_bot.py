@@ -7,7 +7,7 @@ A Telegram bot with three modes:
 - /parallel: Start AI generation immediately, cancel if new messages arrive
 - /stitch: Only batch and echo back the stitched message
 
-Author: Assistant
+Author: Anjaneya Sharma
 Version: 1.0
 """
 
@@ -266,7 +266,7 @@ class BuddyBot:
             
             # Call Groq API
             response = self.groq_client.chat.completions.create(
-                model="llama3-8b-8192",
+                model="llama-3.3-70b-versatile",
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": stitched_message}
